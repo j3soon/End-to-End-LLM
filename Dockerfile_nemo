@@ -1,5 +1,5 @@
 # Select base image
-FROM nvcr.io/nvidia/nemo:23.06
+FROM nvcr.io/nvidia/nemo:24.05
 
 
 # Install jupyterlab and packages

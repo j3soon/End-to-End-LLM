@@ -28,8 +28,8 @@ You can deploy this material using either Docker or Singularity containers. Plea
 To run the Megatron-GPT and NeMo Guardrails contents (Lab 1 & 3), build a Docker container by following these steps:  
 
 - Open a terminal window and navigate to the directory where `Dockerfile_nemo` file is located (e.g. `cd ~/End-to-End-LLM`)
-- Run `sudo docker build -f Dockerfile_nemo --network=host -t <imagename>:<tagnumber> .`, for instance: `sudo docker build -f Dockerfile_nemo --network=host -t nemo_23_06:1.0 .`
-- Next, execute the command: `sudo docker run --rm -it --gpus=all -v ~/End-to-End-LLM/workspace:/workspace --network=host -p 8888:8888 nemo_23_06:1.0`
+- Run `sudo docker build -f Dockerfile_nemo --network=host -t <imagename>:<tagnumber> .`, for instance: `sudo docker build -f Dockerfile_nemo --network=host -t nemo_24_05:1.0 .`
+- Next, execute the command: `sudo docker run --rm -it --gpus=all -v ~/End-to-End-LLM/workspace:/workspace --network=host -p 8888:8888 nemo_24_05:1.0`
 
 To run the TensorRT-LLM and Triton Deployment content (Lab 2), build a Docker container by following these steps: 
 

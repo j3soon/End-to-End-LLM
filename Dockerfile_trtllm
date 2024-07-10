@@ -6,7 +6,7 @@
 # 4. Finally, open http://127.0.0.1:8888/
 
 # Select Base Image 
-FROM nvcr.io/nvidia/tritonserver:23.10-trtllm-python-py3
+FROM nvcr.io/nvidia/tritonserver:24.05-trtllm-python-py3
 
 
 # TensorRT-LLM uses git-lfs, which needs to be installed in advance.
