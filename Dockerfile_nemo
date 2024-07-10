@@ -7,5 +7,6 @@ RUN pip install lightning
 RUN pip install megatron.core
 RUN pip install --upgrade nemoguardrails
 RUN pip install openai
+RUN pip install langchain-nvidia-ai-endpoints
 RUN pip install ujson
 RUN pip install --upgrade --no-cache-dir gdown
